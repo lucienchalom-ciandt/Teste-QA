@@ -1,0 +1,14 @@
+{
+  "name": "teste-qa",
+  "version": "1.0.0",
+  "description": "tests for a QA job opportunity ",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Lucien Oliver",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^15.18.0"
+  }
+}
