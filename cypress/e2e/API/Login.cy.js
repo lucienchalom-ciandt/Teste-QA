@@ -1,5 +1,5 @@
 describe('POST /login', () => {
-  const serverUrl = 'https://serverest.dev'
+  const serverUrl = Cypress.expose(serverUrl)
   const user = {
     email: 'fulano@qa.com',
     password: 'teste',

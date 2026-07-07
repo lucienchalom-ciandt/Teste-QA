@@ -1,5 +1,5 @@
 describe('Login page', () => {
-  const frontUrl = 'https://front.serverest.dev'
+  const frontUrl = Cypress.expose(frontUrl)
   const user = {
     email: 'fulano@qa.com',
     password: 'teste',
